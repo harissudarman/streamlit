@@ -15,6 +15,12 @@ import time
 import concurrent.futures
 import nltk
 import streamlit as st
+import nltk
+import os
+
+# Tambahkan path ke dataset NLTK
+nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
+nltk.data.path.append(nltk_data_path)
 
 # Download resources nltk
 nltk.download('punkt_tab')
