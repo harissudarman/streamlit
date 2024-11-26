@@ -23,8 +23,9 @@ nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
 nltk.data.path.append(nltk_data_path)
 
 # Download resources nltk
-nltk.download('punkt_tab')
-nltk.download('stopwords')
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+
 
 # Cache untuk PDF dan hasil praproses
 pdf_cache = OrderedDict()
