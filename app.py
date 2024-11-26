@@ -94,7 +94,7 @@ def combined_similarity(text1, text2):
     return levenshtein_score * 100  # Kembalikan dalam persen
 
 def fetch_pdf_links():
-    url = "http://127.0.0.1:5000/get_pdf_links"  # Ubah ke URL API yang sesuai
+    url = "https://flask-x9m7.onrender.com/get_pdf_links"  # Ubah ke URL API yang sesuai
     try:
         response = requests.get(url)
         response.raise_for_status()
