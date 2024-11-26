@@ -12,7 +12,6 @@ PyPDF2==3.0.1
 Flask-Cors==3.0.10
 nltk==3.8.1
 Werkzeug==2.2.3
-=======
 PyPDF2
 pdfplumber
 PyMuPDF
@@ -22,4 +21,4 @@ nltk
 Sastrawi
 scikit-learn
 streamlit
->>>>>>> c627ed8 (Add start.sh)
+
